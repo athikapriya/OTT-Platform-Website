@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- meta tag -->
+    <meta charset="UTF-8">
+    <meta name="keyword" content="html, css, javascript, bootstrap, jquery">
+    <meta name="author" content="Athika Chowdhury Priya">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title tag -->
+    <title>Streamit - OTT Platform</title>
+    <!-- favicon -->
+     <link rel="icon" href="assets/images/favicon.png">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+
+    <!-- header starts here -->
+     <header class=" fixed-top ">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <!-- navbar brand -->
+                 <a href="index.html" class="navbar-brand  ">
+                    <img src="assets/images/logo.png" alt="Streamit Logo" class="img-fluid">
+                 </a>
+                
+                 <!-- navbar-nav -->
+                  <div class=" navbar-collapse offcanvas offcanvas-start " id="myNav">
+                    <div class="offcanvas-header ">
+                        <a href="index.html" class="navbar-brand offcanvas-title">
+                            <img src="assets/images/logo.png" alt="Streamit Logo" class="img-fluid">
+                         </a>
+                        <button type="button" class="btn-close " data-bs-dismiss="offcanvas">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 offcanvas-body ">
+                        <li class="nav-item mx-2 me-lg-2 ">
+                            <a href="index.html" class="nav-link text-capitalize active" aria-current="page">home</a>
+                        </li>
+                        <li class="nav-item mx-2  ">
+                            <a href="#" class="nav-link text-capitalize text-white">Genres </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="#" class="nav-link text-capitalize text-white ">Popular Movies</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="#" class="nav-link text-capitalize text-white ">pricing plan</a>
+                        </li>
+                        <li class="nav-item mx-2 ms-lg-2">
+                            <a href="#" class="nav-link text-capitalize text-white ">contact</a>
+                        </li>
+                    </ul>
+                  </div>
+
+                  <!-- search, notification, account -->
+                   <div  class="nav-icons d-flex align-items-center  justify-content-end  ">
+                      <div class="search-container ">
+                        <input type="text" class="search-bar" id="searchBar" placeholder="Search...">
+                        <button class="search-icon" id="searchBtn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="notification  ">
+                        <a href="">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                    </div>
+                    <div class="user ">
+                       <a href="">
+                        <i class="fa-regular fa-user"></i>
+                       </a>
+                    </div>
+                   </div>
+                   
+                   <!-- navbar toggler  -->
+                 <button class="btn navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                  </button>
+            </div>
+        </nav>
+
+     </header>
+    <!-- header ends here -->
+
+
+    <!-- main starts here -->
+
+    <main>
+
+        <!-- banner starts here -->
+         <section id="banner">
+            <div id="carouselAutoplay" class="carousel slide"  data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- carousel item 1 -->
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="carousel-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex  genres">
+                                        <p class="me-2 pg ">PG</p>
+                                        <p class=" mx-2">Adventure</p>
+                                        <p class=" mx-3 genres-mark ">Drama</p>
+                                        <p class=" ms-3 genres-mark ">Thriller</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="carousel-header">
+                                        <h1>The Hunter</h1>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-10 col-lg-7  ">
+                                    <div class="carousel-description">
+                                        <p class="description ">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptatibus, ducimus quia possimus suscipit itaque quis in quasi cupiditate autem reiciendis a quos illum dolorum, commodi perferendis nihil corrupti dolorum?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mt-2 mt-md-3">
+                                    <div class="carousel-rating d-flex ">
+                                        <div class="rating-star ">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <i class="fa-solid fa-star me-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star mx-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star mx-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star mx-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star-half ms-1"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="rating d-flex ms-3">
+                                            <p class="description">4.5</p>
+                                            <div>
+                                                <img src="assets/images/imdb1.svg" alt="Imdb" class="img-fluid ">
+                                            </div>
+                                        </div>
+                                        <div class="movie-time  ">
+                                            <p class="description">1 hr : 
+                                                <span>58 mins</span>
+                                            </p>
+                                        </div>
+                                        <div class="movie-genres mx-3">
+                                            <p class="description">Genres :
+                                                <span>Drama</span>
+                                            </p>
+                                        </div>
+                                        <div class="movie-starring ms-3 ">
+                                            <p class="description">starring :
+                                                <span>Olivia Foster</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 streamNow-btn mt-2 mt-md-3 mt-lg-4 text-white ">
+                                    <a href="#" class="text-decoration-none btn btn-style ">Stream Now
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- carousel item 2 -->
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <div class="carousel-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex  genres">
+                                        <!-- <p class="me-2 ">PG</p> -->
+                                        <p class=" me-3">Revenge</p>
+                                        <p class=" ms-3 genres-mark">Thriller</p>
+                                        <!-- <p class=" ms-3 genres-mark ">Sci-Fi</p> -->
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="carousel-header">
+                                        <h1>Better Call Saul</h1>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-10 col-lg-7  ">
+                                    <div class="carousel-description">
+                                        <p class="description ">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptatibus, ducimus quia possimus suscipit itaque quis in quasi cupiditate autem reiciendis a quos illum dolorum, commodi perferendis nihil corrupti dolorum?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mt-2 mt-md-3">
+                                    <div class="carousel-rating d-flex ">
+                                        <div class="rating-star ">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <i class="fa-solid fa-star me-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star mx-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star mx-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star mx-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star-half ms-1"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="rating d-flex ms-3">
+                                            <p class="description">4.5</p>
+                                            <div>
+                                                <img src="assets/images/imdb1.svg" alt="Imdb" class="img-fluid ">
+                                            </div>
+                                        </div>
+                                        <div class="movie-time  ">
+                                            <p class="description">2 hrs : 
+                                                <span>55 mins</span>
+                                            </p>
+                                        </div>
+                                        <div class="movie-genres mx-3">
+                                            <p class="description">Genres :
+                                                <span>Horror</span>
+                                            </p>
+                                        </div>
+                                        <div class="movie-starring ms-3 ">
+                                            <p class="description">starring :
+                                                <span>Kelly Reilly, Millar Josheph</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 streamNow-btn mt-2 mt-md-3 mt-lg-4 text-white ">
+                                    <a href="#" class="text-decoration-none btn btn-style ">Stream Now
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- carousel item 3 -->
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <div class="carousel-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex  genres">
+                                        <!-- <p class="me-2 ">PG</p> -->
+                                        <p class=" me-3">Action</p>
+                                        <p class=" mx-3 genres-mark">Adventure</p>
+                                        <p class=" ms-3 genres-mark ">Sci-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="carousel-header">
+                                        <h1>The Mandalorian</h1>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-10 col-lg-7  ">
+                                    <div class="carousel-description">
+                                        <p class="description ">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptatibus, ducimus quia possimus suscipit itaque quis in quasi cupiditate autem reiciendis a quos illum dolorum, commodi perferendis nihil corrupti dolorum?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mt-2 mt-md-3">
+                                    <div class="carousel-rating d-flex ">
+                                        <div class="rating-star ">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <i class="fa-solid fa-star me-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star mx-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star mx-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star mx-1"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-solid fa-star-half ms-1"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="rating d-flex ms-3">
+                                            <p class="description">4.5</p>
+                                            <div>
+                                                <img src="assets/images/imdb1.svg" alt="Imdb" class="img-fluid ">
+                                            </div>
+                                        </div>
+                                        <div class="movie-time  ">
+                                            <p class="description">2 hrs : 
+                                                <span>14 mins</span>
+                                            </p>
+                                        </div>
+                                        <div class="movie-genres mx-3">
+                                            <p class="description">Genres :
+                                                <span>Action, Adventure, Sci-Fi</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 streamNow-btn mt-2 mt-md-3 mt-lg-4 text-white ">
+                                    <a href="#" class="text-decoration-none btn btn-style ">Stream Now
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplay" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplay" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+         </section>
+         <!-- banner ends here -->
+
+
+         <!-- top 10 movies starts here -->
+          <section id="top-movies" class="section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 movies-header">
+                        <h2 class="section-heading text-white ">Top 10 Movies To Watch</h2>
+                    </div>
+                    <div class=" col-12 py-4">
+                       <div class="movie-section">
+                        <div class="row ">
+                            <div class="owl-carousel owl-theme">
+                                <!-- top movie 1 -->
+                                <div class="item">
+                                    <img src="assets/images/movie1.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>1</h3>
+                                </div>
+                                <!-- top movie 2 -->
+                                <div class="item">
+                                    <img src="assets/images/movie2.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>2</h3>
+                                </div>
+                                <!-- top movie 3 -->
+                                <div class="item">
+                                    <img src="assets/images/movie3.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>3</h3>
+                                </div>
+                                <!-- top movie 4 -->
+                                <div class="item">
+                                    <img src="assets/images/movie4.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>4</h3>
+                                </div>
+                                <!-- top movie 5 -->
+                                <div class="item">
+                                    <img src="assets/images/movie5.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>5</h3>
+                                </div>
+                                <!-- top movie 6 -->
+                                <div class="item">
+                                    <img src="assets/images/movie6.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>6</h3>
+                                </div>
+                                <!-- top movie 7 -->
+                                <div class="item">
+                                    <img src="assets/images/movie7.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>7</h3>
+                                </div>
+                                <!-- top movie 8 -->
+                                <div class="item">
+                                    <img src="assets/images/movie8.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>8</h3>
+                                </div>
+                                <!-- top movie 9 -->
+                                <div class="item">
+                                    <img src="assets/images/movie9.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>9</h3>
+                                </div>
+                                <!-- top movie 10 -->
+                                <div class="item">
+                                    <img src="assets/images/movie10.webp" alt="Top Movies" class="img-fluid">
+                                    <h3>10</h3>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+         <!-- top 10 movies ends here -->
+
+
+         <!-- only on streamit starts here -->
+         <section id="on-streamit" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 movies-header d-flex">
+                        <h2 class="section-heading text-white text-start ">Only On Streamit</h2>
+                        <a href="#" class="text-end text-decoration-none btn btn-style " >View All</a>
+                    </div>
+                    <div class=" col-12 py-4">
+                       <div class="movie-section">
+                        <div class="row ">
+                            <div class="owl-carousel owl-theme ">
+                                <!-- movie-1 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie11.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>We Gare</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-2 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie12.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Giikre</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-3 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie13.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>The Co-Noueriing </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                               <!-- movie-4 -->
+                               <div class="movie-detail">
+                                    <div class="item">
+                                    <a href="#">
+                                        <img src="assets/images/movie14.webp" alt="Top Movies" class="img-fluid">
+                                    </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Fast & Furious </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-5 -->
+                               <div class="movie-detail">
+                                <div class="item">
+                                <a href="#">
+                                    <img src="assets/images/movie15.webp" alt="Top Movies" class="img-fluid">
+                                </a>
+                                    <div class="movie-name mt-1">
+                                        <h4>Spiderman</h4>
+                                    </div>
+                                </div>
+                            </div>
+                               <!-- movie-6 -->
+                               <div class="movie-detail">
+                                <div class="item  ">
+                                    <a href="#">
+                                        <img src="assets/images/movie16.webp" alt="Top Movies" class="img-fluid">
+                                    </a>
+                                    <div class="movie-name mt-1">
+                                        <h4>One Piece</h4>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- only on streamit ends here -->
+
+
+
+          <!-- upcoming movies starts here -->
+
+          <section id="upcoming-movies" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 movies-header d-flex">
+                        <h2 class="section-heading text-white text-start ">Upcoming Movies</h2>
+                        <a href="#" class="text-end text-decoration-none btn btn-style " >View All</a>
+                    </div>
+                    <div class=" col-12 py-4">
+                       <div class="movie-section">
+                        <div class="row ">
+                            <div class="owl-carousel owl-theme ">
+                                <!-- movie-1 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie21.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Better Call</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-2 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie22.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Vikings</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-3 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie23.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Avengers </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                               <!-- movie-4 -->
+                               <div class="movie-detail">
+                                    <div class="item">
+                                    <a href="#">
+                                        <img src="assets/images/movie24.webp" alt="Top Movies" class="img-fluid">
+                                    </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Dangacg </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-5 -->
+                               <div class="movie-detail">
+                                <div class="item">
+                                <a href="#">
+                                    <img src="assets/images/movie25.webp" alt="Top Movies" class="img-fluid">
+                                </a>
+                                    <div class="movie-name mt-1">
+                                        <h4>Soulmate</h4>
+                                    </div>
+                                </div>
+                            </div>
+                               <!-- movie-6 -->
+                               <div class="movie-detail">
+                                <div class="item  ">
+                                    <a href="#">
+                                        <img src="assets/images/movie26.webp" alt="Top Movies" class="img-fluid">
+                                    </a>
+                                    <div class="movie-name mt-1">
+                                        <h4>Arrival</h4>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- upcoming movies ends here -->
+
+
+        
+          <!-- recommended for you starts here -->
+          <section id="recommended-movies" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 movies-header d-flex">
+                        <h2 class="section-heading text-white text-start ">Recommended For You </h2>
+                        <a href="#" class="text-end text-decoration-none btn btn-style " >View All</a>
+                    </div>
+                    <div class=" col-12 py-4">
+                       <div class="movie-section">
+                        <div class="row ">
+                            <div class="owl-carousel owl-theme ">
+                                <!-- movie-1 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie17.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Bumblebee</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-2 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie18.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>The Mandalorian</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-3 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie19.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Dinoosour </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                               <!-- movie-4 -->
+                               <div class="movie-detail">
+                                    <div class="item">
+                                    <a href="#">
+                                        <img src="assets/images/movie20.webp" alt="Top Movies" class="img-fluid">
+                                    </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Godilla </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-5 -->
+                               <div class="movie-detail">
+                                <div class="item">
+                                <a href="#">
+                                    <img src="assets/images/movie27.webp" alt="Top Movies" class="img-fluid">
+                                </a>
+                                    <div class="movie-name mt-1">
+                                        <h4>Breaking Bad</h4>
+                                    </div>
+                                </div>
+                            </div>
+                               <!-- movie-6 -->
+                               <div class="movie-detail">
+                                <div class="item  ">
+                                    <a href="#">
+                                        <img src="assets/images/movie28.webp" alt="Top Movies" class="img-fluid">
+                                    </a>
+                                    <div class="movie-name mt-1">
+                                        <h4>Charlie</h4>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- recommended for you ends here -->
+
+
+        <!-- popular movies starts here -->
+        <section id="popular-movies" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 movies-header d-flex">
+                        <h2 class="section-heading text-white text-start ">Popular Movies </h2>
+                        <a href="#" class="text-end text-decoration-none btn btn-style " >View All</a>
+                    </div>
+                    <div class=" col-12 py-4">
+                       <div class="movie-section">
+                        <div class="row ">
+                            <div class="owl-carousel owl-theme ">
+                                <!-- movie-1 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie29.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Frozen</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-2 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie30.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>The Crew</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-3 -->
+                                <div class="movie-detail">
+                                    <div class="item ">
+                                        <a href="#">
+                                            <img src="assets/images/movie31.webp" alt="Top Movies" class="img-fluid">
+                                        </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Red Dog </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                               <!-- movie-4 -->
+                               <div class="movie-detail">
+                                    <div class="item">
+                                    <a href="#">
+                                        <img src="assets/images/movie32.webp" alt="Top Movies" class="img-fluid">
+                                    </a>
+                                        <div class="movie-name mt-1">
+                                            <h4>Guility </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- movie-5 -->
+                               <div class="movie-detail">
+                                <div class="item">
+                                <a href="#">
+                                    <img src="assets/images/movie33.webp" alt="Top Movies" class="img-fluid">
+                                </a>
+                                    <div class="movie-name mt-1">
+                                        <h4>Titanic</h4>
+                                    </div>
+                                </div>
+                            </div>
+                               <!-- movie-6 -->
+                               <div class="movie-detail">
+                                <div class="item  ">
+                                    <a href="#">
+                                        <img src="assets/images/movie14.webp" alt="Top Movies" class="img-fluid">
+                                    </a>
+                                    <div class="movie-name mt-1">
+                                        <h4>Fast and Furious</h4>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+        <!-- popular movies ends here -->
+
+    </main>
+
+    <!-- main ends here -->
+
+
+
+    <!-- footer starts here -->
+     <footer class="">
+        <div class="container">
+            <div class="row footer-details pb-4">
+                <div class="col-md-4 col-lg-2 ">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+                    </div>
+                    <p class="footer-description mt-3">Email us:
+                        <span class="text-white">customer@streamit.com</span>
+                    </p>
+                    <p class="footer-description text-uppercase mt-3 ">Customer Services</p>
+                    <p class="footer-description mobile ">+ (480) 555-0103</p>
+                </div>
+                <div class="col-md-4 col-lg-2 ">
+                    <h4 class="text-white ">Quick Links</h4>
+                    <div class="footer-nav">
+                        <ul class="nav">
+                            <li class="">
+                                <a href="#" class="text-decoration-none my-2">About</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="text-decoration-none mb-2">Blog</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="text-decoration-none mb-2">Pricing Plan</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="text-decoration-none"> FAQ </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 ">
+                    <h4 class="text-white ">Movies To Watch </h4>
+                    <div class="footer-nav">
+                        <ul class="nav">
+                            <li class="">
+                                <a href="#" class="text-decoration-none my-2">Top Trending</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="text-decoration-none mb-2">Recommended</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="text-decoration-none mb-2">Popular</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 mt-4 mt-md-0 ">
+                    <h4 class="text-white ">About Company </h4>
+                    <div class="footer-nav">
+                        <ul class="nav">
+                            <li class="">
+                                <a href="#" class="text-decoration-none my-2">Contact Us</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="text-decoration-none mb-2">Privacy Policy</a>
+                            </li>
+                            <li class="">
+                                <a href="#" class="text-decoration-none mb-2">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
+                    <h4 class="text-white ">Subscribe Newsletter </h4>
+                    <div>
+                        <form action="" method="get" class="d-flex ">
+                            <input type="email" id="email" name="email" placeholder="Email">
+                            <button class="btn btn-style text-white text-uppercase" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class=" follow d-flex">
+                        <p class=" description">Follow Us : </p>
+                        <ul class="d-flex">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="text-center">
+                        <p class=" description   copy">@Copyright <span>streamIT</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+    <!-- footer ends here -->
+
+
+
+    
+    
+	<!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <!-- owl carousel cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- my js -->
+     <script src="assets/js/script.js"></script>
+</body>
+</html>

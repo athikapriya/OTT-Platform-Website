@@ -1,0 +1,109 @@
+
+
+@media screen and (max-width:1200px) {
+    #top-movies .owl-carousel .item{
+        height: 240px;
+    }
+
+    #top-movies .owl-carousel .item h3{
+        font-size: 5.5rem;
+    }
+
+    
+}
+
+/* large screen */
+@media screen and (max-width:992px) {
+    .navbar-collapse {
+        text-align: center;
+        padding: 6px;
+    }
+    .nav-icons {
+        text-align: center;
+    }
+
+    nav{
+        position: relative;
+    }
+
+    .nav-icons{
+        position: absolute;
+        right: 20%;
+    }
+
+    .nav-link{
+        padding: 1px 0px 0px 0px;
+    }
+
+    .carousel-description .description{
+        line-height: 25px;
+    }
+
+    #top-movies .owl-carousel .item{
+        height: 190px;
+    }
+
+
+    #top-movies .owl-carousel .item h3{
+        font-size: 4.7rem;
+    }
+
+    
+}
+
+
+/* medium screen  */
+@media screen and (max-width:786px) {
+    .movie-time, .movie-starring{
+        display: block;
+    }
+
+    .btn-style{
+        padding: 0.60rem 1.65rem;
+    }
+
+
+    .nav-icons{
+        right: 24%;
+    }
+
+
+    #top-movies .owl-carousel .item{
+        height: 170px;
+    }
+
+    #top-movies .owl-carousel .item h3{
+        font-size: 4rem;
+    }
+
+    #on-streamit .movie-name h4{
+        font-size: 0.85rem;
+    }
+    
+}
+
+
+/* small screen  */
+@media screen and (max-width:576px) {
+    .nav-icons{
+        right: 20%;
+    }
+
+    #top-movies .owl-carousel .item{
+        height: 200px;
+    }
+
+    #top-movies .owl-carousel .item h3{
+        font-size: 3.5rem;
+    }
+
+    #top-movies .owl-carousel .item h3{
+        top: 55%;
+        right: -1%;
+    }
+
+    #on-streamit .movie-name h4{
+        line-height: 20px;
+    }
+    
+}
