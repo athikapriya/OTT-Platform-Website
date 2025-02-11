@@ -105,5 +105,9 @@
     #on-streamit .movie-name h4{
         line-height: 20px;
     }
+
+    .footer-details{
+        padding: 0px 20px;
+    }
     
 }
